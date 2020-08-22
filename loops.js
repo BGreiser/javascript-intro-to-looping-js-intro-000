@@ -9,3 +9,12 @@ function forLoop(){
   }// end for loop
   return x;
 }// end function
+
+
+function whileLoop(x) {
+  while (x > 0) {
+    console.log(x);
+    x--
+  }
+  return "done"
+}
